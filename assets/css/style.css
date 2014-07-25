@@ -1,11 +1,13 @@
+@import url(../fonts/font.css);
+@import url(animate.css);
+
 body {
 	margin: 0px;
 	font-family: "Open Sans";
 	font-size: 13px;
 }
 
-body.index,
-body.profile {
+body {
 	background: url(../img/gridtile.png), url(../img/hero-home.jpg);
 }
 
@@ -32,11 +34,7 @@ h1 {
 .logo-wrapper {
 	height: 100px;
 	padding: 25px 8px 25px 8px;
-}
-
-body.index .logo-wrapper,
-body.profile .logo-wrapper {
-	background: rgba(160, 0, 0, 0.5);
+    background: rgba(160, 0, 0, 0.5);
 }
 
 .logo {
