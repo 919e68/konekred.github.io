@@ -12,7 +12,7 @@ body {
 }
 
 body {
-	background: url(../img/gridtile.png), url(../img/hero-home.jpg);
+	background: url(../img/gridtile.png) repeat, url(../img/hero-home.jpg) no-repeat fixed;
 }
 
 .profile-image {
@@ -26,13 +26,13 @@ h1 {
 	color: #575757;
 }
 .container {
-	max-width: 1200px;
+	max-width: 1000px;
 	margin: auto;
 }
 
 .header {
 	width: 100%;
-	color: #FFF;
+	color: #E6E6E6;
 }
 
 .logo-wrapper {
@@ -112,7 +112,7 @@ h1 {
 	padding: 8px 15px 8px 15px;
 	display: block;
 	text-decoration: none;
-	color: #FFF;
+	color: #E6E6E6;
 	-webkit-transition: color 750ms ease 0s;
 }
 
@@ -120,315 +120,49 @@ h1 {
 	color: #FF2525;
 }
 
-body.our-works .menu > ul > li > a:hover, body.our-works .menu > ul > li.active > a {
-	color: #2090C5;
+.content {
+	color: #E6E6E6;
 }
 
-
-
-
-/* Socialize Icons */
-.social-in-homepage, .social-in-page {
-    position: fixed;
-    /*top: 0;*/
-    right: 80px;
-    z-index: 999;
-}
-.social-in-page {
-    right: -2px;
-}
-.social-bookmarks.social-in-page ul li {
-    float: none;
-    display: block;
-    overflow: hidden;
-}
-/*.social-in-page ul li, .social-in-page ul li a {
-    -webkit-border-top-left-radius: 7px;
-    -webkit-border-bottom-left-radius: 7px;
-    -moz-border-radius-topleft: 7px;
-    -moz-border-radius-bottomleft: 7px;
-    border-top-left-radius: 7px;
-    border-bottom-left-radius: 7px;
-}
-.social-in-homepage ul li, .social-in-homepage ul li a {
-    -webkit-border-bottom-right-radius: 7px;
-    -webkit-border-bottom-left-radius: 7px;
-    -moz-border-radius-bottomright: 7px;
-    -moz-border-radius-bottomleft: 7px;
-    border-bottom-right-radius: 7px;
-    border-bottom-left-radius: 7px;;
-}*/
-.social-bookmarks {
-    overflow: hidden;
-    margin-bottom: 20px;
-}
-.social-bookmarks.res-social-bookmarks {
-    display: none;
-}
-.social-bookmarks ul li {
-    float: left;
-    display: inline;
-    margin: 0 2px 2px 0;
-    padding: 0 !important;
-    list-style-type: none !important;
-    background-color: rgba(0, 0, 0, 0.7);
-}
-.social-bookmarks ul li a {
-    display: block;
-    text-indent: -9999px;
-    width: 40px;
-    height: 40px;
-    float: left;
-    -moz-transition: all 0.3s ease 0s;
-    -webkit-transition: all 0.3s ease 0s;
-    -o-transition: all 0.3s ease 0s;
-    -ms-transition: all 0.3s ease 0s;
-    transition: all 0.3s ease 0s;
-}
-.social-bookmarks .facebook a {
-    background: url("../img/social_icons.png") 0 0 no-repeat;
-}
-.social-bookmarks .facebook a:hover {
-    background: #3b5998 url("../img/social_icons.png") 0 -40px no-repeat;
-}
-.social-bookmarks .gplus a {
-    background: url("../img/social_icons.png") -40px 0 no-repeat;
-}
-.social-bookmarks .gplus a:hover {
-    background: #d94a39 url("../img/social_icons.png") -40px -40px no-repeat;
-}
-.social-bookmarks .twitter a {
-    background: url("../img/social_icons.png") -80px 0 no-repeat;
-}
-.social-bookmarks .twitter a:hover {
-    background: #48c4d2 url("../img/social_icons.png") -80px -40px no-repeat;
-}
-.social-bookmarks .youtube a {
-    background: url("../img/social_icons.png") -120px 0 no-repeat;
-}
-.social-bookmarks .youtube a:hover {
-    background: #f45750 url("../img/social_icons.png") -120px -40px no-repeat;
-}
-.social-bookmarks .vimeo a {
-    background: url("../img/social_icons.png") -160px 0 no-repeat;
-}
-.social-bookmarks .vimeo a:hover {
-    background: #62a0ad url("../img/social_icons.png") -160px -40px no-repeat;
-}
-.social-bookmarks .flickr a {
-    background: url("../img/social_icons.png") -200px 0 no-repeat;
-}
-.social-bookmarks .flickr a:hover {
-    background: #f1628b url("../img/social_icons.png") -200px -40px no-repeat;
-}
-.social-bookmarks .skype a {
-    background: url("../img/social_icons.png") -240px 0 no-repeat;
-}
-.social-bookmarks .skype a:hover {
-    background: #18b7f1 url("../img/social_icons.png") -240px -40px no-repeat;
-}
-.social-bookmarks .linkedin a {
-    background: url("../img/social_icons.png") -280px 0 no-repeat;
-}
-.social-bookmarks .linkedin a:hover {
-    background: #71b2d0 url("../img/social_icons.png") -280px -40px no-repeat;
-}
-.social-bookmarks .behance a {
-    background: url("../img/social_icons.png") -320px 0 no-repeat;
-}
-.social-bookmarks .behance a:hover {
-    background: #18a3fe url("../img/social_icons.png") -320px -40px no-repeat;
-}
-.social-bookmarks .picasa a {
-    background: url("../img/social_icons.png") -360px 0 no-repeat;
-}
-.social-bookmarks .picasa a:hover {
-    background: #444 url("../img/social_icons.png") -360px -40px no-repeat;
-}
-.social-bookmarks .dribble a {
-    background: url("../img/social_icons.png") -400px 0 no-repeat;
-}
-.social-bookmarks .dribble a:hover {
-    background: #ef5b92 url("../img/social_icons.png") -400px -40px no-repeat;
-}
-.social-bookmarks .digg a {
-    background: url("../img/social_icons.png") -440px 0 no-repeat;
-}
-.social-bookmarks .digg a:hover {
-    background: #2882c6 url("../img/social_icons.png") -440px -40px no-repeat;
-}
-.social-bookmarks .blogger a {
-    background: url("../img/social_icons.png") -480px 0 no-repeat;
-}
-.social-bookmarks .blogger a:hover {
-    background: #fb913f url("../img/social_icons.png") -480px -40px no-repeat;
-}
-.social-bookmarks .supon a {
-    background: url("../img/social_icons.png") -520px 0 no-repeat;
-}
-.social-bookmarks .supon a:hover {
-    background: #eb4924 url("../img/social_icons.png") -520px -40px no-repeat;
-}
-.social-bookmarks .delicious a {
-    background: url("../img/social_icons.png") -560px 0 no-repeat;
-}
-.social-bookmarks .delicious a:hover {
-    background: #3274d1 url("../img/social_icons.png") -560px -40px no-repeat;
-}
-.social-bookmarks .tumblr a {
-    background: url("../img/social_icons.png") -600px 0 no-repeat;
-}
-.social-bookmarks .tumblr a:hover {
-    background: #3a5976 url("../img/social_icons.png") -600px -40px no-repeat;
-}
-.social-bookmarks .dropbox a {
-    background: url("../img/social_icons.png") -640px 0 no-repeat;
-}
-.social-bookmarks .dropbox a:hover {
-    background: #18b7f1 url("../img/social_icons.png") -640px -40px no-repeat;
-}
-.social-bookmarks .google a {
-    background: url("../img/social_icons.png") -680px 0 no-repeat;
-}
-.social-bookmarks .google a:hover {
-    background: #dd4b39 url("../img/social_icons.png") -680px -40px no-repeat;
-}
-.social-bookmarks .rss a {
-    background: url("../img/social_icons.png") -720px 0 no-repeat;
-}
-.social-bookmarks .rss a:hover {
-    background: #fe9900 url("../img/social_icons.png") -720px -40px no-repeat;
-}
-.social-bookmarks .wordpress a {
-    background: url("../img/social_icons.png") -760px 0 no-repeat;
-}
-.social-bookmarks .wordpress a:hover {
-    background: #464646 url("../img/social_icons.png") -760px -40px no-repeat;
-}
-.social-bookmarks .apple a {
-    background: url("../img/social_icons.png") -800px 0 no-repeat;
-}
-.social-bookmarks .apple a:hover {
-    background: #444 url("../img/social_icons.png") -800px -40px no-repeat;
-}
-.social-bookmarks .yahoo a {
-    background: url("../img/social_icons.png") -840px 0 no-repeat;
-}
-.social-bookmarks .yahoo a:hover {
-    background: #ab64bc url("../img/social_icons.png") -840px -40px no-repeat;
-}
-.social-bookmarks .android a {
-    background: url("../img/social_icons.png") -880px 0 no-repeat;
-}
-.social-bookmarks .android a:hover {
-    background: #a5c43b url("../img/social_icons.png") -880px -40px no-repeat;
-}
-.social-bookmarks .html5 a {
-    background: url("../img/social_icons.png") -920px 0 no-repeat;
-}
-.social-bookmarks .html5 a:hover {
-    background: #f3642c url("../img/social_icons.png") -920px -40px no-repeat;
-}
-.social-bookmarks .photo-500 a {
-    background: url("../img/social_icons.png") -960px 0 no-repeat;
-}
-.social-bookmarks .photo-500 a:hover {
-    background: #00adef url("../img/social_icons.png") -960px -40px no-repeat;
-}
-.social-bookmarks .instagram a {
-    background: url("../img/social_icons.png") -1000px 0 no-repeat;
-}
-.social-bookmarks .instagram a:hover {
-    background: #5d3d35 url("../img/social_icons.png") -1000px -40px no-repeat;
-}
-.social-bookmarks .pinterest a {
-    background: url("../img/social_icons.png") -1040px 0 no-repeat;
-}
-.social-bookmarks .pinterest a:hover {
-    background: #c9232f url("../img/social_icons.png") -1040px -40px no-repeat;
-}
-.social-bookmarks .email-social a {
-    background: url("../img/social_icons.png") -1080px 0 no-repeat;
-}
-.social-bookmarks .email-social a:hover {
-    background: #1f6f8a url("../img/social_icons.png") -1080px -40px no-repeat;
-}
-@media only screen and (-moz-min-device-pixel-ratio: 1.5),
-only screen and (-o-min-device-pixel-ratio: 3/2),
-only screen and (-webkit-min-device-pixel-ratio: 1.5),
-only screen and (min-device-pixel-ratio: 1.5),
-only screen and (min-resolution: 144dpi) {
-
-    .social-bookmarks .facebook a,
-    .social-bookmarks .gplus a,
-    .social-bookmarks .twitter a,
-    .social-bookmarks .youtube a,
-    .social-bookmarks .vimeo a,
-    .social-bookmarks .flickr a,
-    .social-bookmarks .skype a,
-    .social-bookmarks .linkedin a,
-    .social-bookmarks .behance a,
-    .social-bookmarks .picasa a,
-    .social-bookmarks .dribble a,
-    .social-bookmarks .digg a,
-    .social-bookmarks .blogger a,
-    .social-bookmarks .supon a,
-    .social-bookmarks .delicious a,
-    .social-bookmarks .tumblr a,
-    .social-bookmarks .dropbox a,
-    .social-bookmarks .google a,
-    .social-bookmarks .rss a,
-    .social-bookmarks .wordpress a,
-    .social-bookmarks .apple a,
-    .social-bookmarks .yahoo a,
-    .social-bookmarks .android a,
-    .social-bookmarks .html5 a,
-    .social-bookmarks .photo-500 a,
-    .social-bookmarks .instagram a,
-    .social-bookmarks .pinterest a,
-    .social-bookmarks .email-social a,
-    .social-bookmarks .facebook a:hover,
-    .social-bookmarks .gplus a:hover,
-    .social-bookmarks .twitter a:hover,
-    .social-bookmarks .youtube a:hover,
-    .social-bookmarks .vimeo a:hover,
-    .social-bookmarks .flickr a:hover,
-    .social-bookmarks .skype a:hover,
-    .social-bookmarks .linkedin a:hover,
-    .social-bookmarks .behance a:hover,
-    .social-bookmarks .picasa a:hover,
-    .social-bookmarks .dribble a:hover,
-    .social-bookmarks .digg a:hover,
-    .social-bookmarks .blogger a:hover,
-    .social-bookmarks .supon a:hover,
-    .social-bookmarks .delicious a:hover,
-    .social-bookmarks .tumblr a:hover,
-    .social-bookmarks .dropbox a:hover,
-    .social-bookmarks .google a:hover,
-    .social-bookmarks .rss a:hover,
-    .social-bookmarks .wordpress a:hover,
-    .social-bookmarks .apple a:hover,
-    .social-bookmarks .yahoo a:hover,
-    .social-bookmarks .android a:hover,
-    .social-bookmarks .html5 a:hover,
-    .social-bookmarks .photo-500 a:hover,
-    .social-bookmarks .instagram a:hover,
-    .social-bookmarks .pinterest a:hover,
-    .social-bookmarks .email-social a:hover {
-        background-size: 1120px 80px;
-        background-image: url('../img/social_icons%402x.png');
-    }
-}
-
-.index-footer {
-	width: 100%;
+.content > .container {
 	background: rgba(0,0,0,0.6);
-	padding: 15px;
-	position: fixed;
-	bottom: 0px;
-	color: #FFF;
+	padding: 15px 25px 15px 25px;
 }
 
-.index-footer strong {
+.profile-content {
+	padding: 10px 0px 20px 0px;
+	
+}
+
+.profile-content > .title {
 	color: #FF2525;
+	font-size: 20px;
+}
+
+.profile-content .content {
+	text-align: justify;
+	padding: 10px 25px 0px 25px;
+}
+
+.profile-content .content ul {
+	margin: 0px;
+}
+
+.content.education ul, .content.expertise ul {
+	list-style: none;
+	padding: 0px;
+}
+
+.skill-set {
+	padding: 0px 0px 15px 0px;	
+}
+
+.skill-set ul {
+	padding: 0px 0px 0px 15px;
+}
+
+.skill-header {
+	font-size: 14px;
+	padding: 0px 0px 5px 0px;
+	color: #D62222;
 }
