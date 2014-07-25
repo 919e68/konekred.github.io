@@ -167,3 +167,33 @@ h1 {
 	color: #D62222;
 }
 
+@media all and (max-width: 700px) {
+	.logo-wrapper {
+		height: auto;
+	}
+	.logo {
+		float: none;
+		text-align: center;
+		width: 100%;
+		padding: 0px 0px 0px 0px;
+	}
+	
+	.name-info {
+		float: none;
+		width: 100%;
+	}
+	.name-info > ul {
+		padding: 0px;
+	}
+	.name-info > ul > li {
+		text-align: center;
+	}
+	
+	.contact-info {
+		float: none;
+		width: 100%;
+	}
+	.contact-info > ul > li {
+		text-align: center;
+	} 
+}
